@@ -66,7 +66,7 @@ export default function BioStatus({ state }: Props) {
         <p className="text-xs text-on-surface-variant uppercase tracking-widest opacity-60 mb-3">Template Tokens</p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           {[
-            { token: '{time}', desc: 'Current time (HH:MM, Tehran)' },
+            { token: '{time}', desc: 'Current time (HH:MM)' },
             { token: '{mood}', desc: 'Current mood value' },
             { token: '{text}', desc: 'Custom freeform text' },
           ].map(({ token, desc }) => (

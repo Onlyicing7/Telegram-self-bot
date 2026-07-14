@@ -50,7 +50,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-surface text-on-surface font-sans">
-      {/* Header */}
       <header className="border-b border-outline-variant bg-surface-container sticky top-0 z-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -70,7 +69,6 @@ export default function App() {
           </button>
         </div>
 
-        {/* Tabs */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1 pb-0">
           {tabs.map(t => (
             <button
@@ -95,7 +93,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Body */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
         {error && (
           <div className="mb-4 px-4 py-3 rounded-xl bg-error/10 border border-error/30 text-error text-sm">
